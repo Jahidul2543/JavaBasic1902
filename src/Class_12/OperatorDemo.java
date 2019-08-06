@@ -7,10 +7,12 @@ public class OperatorDemo {
         int x ;
 
         /**
+         *
          * Assigning value to the variable x
          * Assignment operator =
          *
          */
+
          x = 8;
          int y = 4;
          int sum = x + y;
