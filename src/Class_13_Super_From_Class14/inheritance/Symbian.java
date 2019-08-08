@@ -1,4 +1,4 @@
-package Class_13.inheritance;
+package Class_13_Super_From_Class14.inheritance;
 
 public interface Symbian {
     /**
