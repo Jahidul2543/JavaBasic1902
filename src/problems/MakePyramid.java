@@ -1,4 +1,4 @@
-package math;
+package problems;
 
 public class MakePyramid {
     public static void main(String[] args) {
