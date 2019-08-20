@@ -25,6 +25,7 @@ public class ArrayListDemo {
         studentsList.add("Zahidul");
         studentsList.add("Zahidul");
 
+
       //  System.out.println(studentsList.size());
 
         return studentsList;

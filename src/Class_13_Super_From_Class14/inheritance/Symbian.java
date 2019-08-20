@@ -10,4 +10,8 @@ public interface Symbian {
 
     public void sendText();
 
+    default public void colorDisplay(){
+
+    }
+
 }

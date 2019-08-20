@@ -47,7 +47,10 @@ public class ArrayDemo {
             System.out.println("You are trying to add student more than your capacity");
         }
         //System.out.println(students.length);
+        finally {
+            System.out.println("Whatsoever happens jvm will execute me");
 
+        }
     }
 
     public void divide(int x, int y){
