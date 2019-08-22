@@ -6,10 +6,11 @@ import java.util.Properties;
 public class ReadPropertiesFile {
 
     public static void main(String[] args) {
+       // ReadPropertiesFile readPropertiesFile = new ReadPropertiesFile();
         readApplicationProperties();
     }
 
-    private static void readApplicationProperties() {
+    public static Properties readApplicationProperties() {
         Properties  properties = new Properties();
         String pathname = System.getProperty("user.dir") + "/src/resources/application.properties";
         File file = new File(pathname);
@@ -26,11 +27,12 @@ public class ReadPropertiesFile {
 
         }
 
-       String userName = properties.getProperty("userName");
+      /* String userName = properties.getProperty("userName");
        String passCode = properties.getProperty("password");
        System.out.println("userName "+ userName );
        System.out.println("password "+ passCode );
-
+*/
+      return properties;
     }
 
 }
